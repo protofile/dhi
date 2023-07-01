@@ -1782,8 +1782,10 @@ var THEMEMASCOT = {};
     TM_topnavAnimate: function() {
       if ($window.scrollTop() > (50)) {
         $(".navbar-sticky-animated").removeClass("animated-active");
+        $(".header-nav-wrapper").addClass("scrolled");
       } else {
         $(".navbar-sticky-animated").addClass("animated-active");
+        $(".header-nav-wrapper").removeClass("scrolled");
       }
 
       if ($window.scrollTop() > (50)) {
