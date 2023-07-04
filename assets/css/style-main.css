@@ -22262,4 +22262,81 @@ h2.titles{
   .travel-card p{
     text-align: center;
   }
+
+  .information{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    margin-bottom: 0;
+  }
+  .tm-owl-slider .slider-wrapper .active .content-box .title{
+    font-size: 36px !important;
+  }
+  .tm-owl-slider .slider-wrapper .slide-item{
+    height: 80vh !important;
+  }
+  .tm-owl-slider .slider-wrapper .active .content-box .paragraph{
+    font-size: 14px;
+  }
+  header#header.header-layout-type-header-2rows .menuzord-brand{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .information .container .text h5{
+    font-size: 20px;
+  }
+  .information .container .text table td,
+  .information .container p{
+    font-size: 14px;
+  }
+  .information .container .text table{
+    margin-bottom: 20px;
+  }
+  .information .container .text{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+  .dosndont .container{
+    padding-top: 40px;
+  }
+  .text-group.text-group-1::before{
+    height: calc(100% + 100px);
+    top: -51px;
+  }
+  .text-group.text-group-1{
+    margin-bottom: 80px;
+  }
+
+  .text-group ul li{
+    font-size: 14px;
+  }
+  .text-group h2{
+    font-size: 36px;
+  }
+
+  .service-card{
+    min-height: 0;
+  }
+  .services .container{
+    padding-bottom: 50px;
+  }
+  h2.titles{
+    font-size: 36px;
+  }
+  .widget.widget_nav_menu{
+    width: 100%;
+    margin-right: 0;
+    border-right: none;
+    padding-right: 0;
+  }
+  .widget.widget_nav_menu ul{
+    column-count: 2;
+  }
+  .entry-header h2{
+    font-size: 36px;
+  }
+  .treatment-links-group{
+    margin-bottom: 80px;
+  }
 }
